@@ -1,0 +1,10 @@
+{
+    "name":"wdev/google-text-to-speech",
+    "autoload": {
+        "psr-4":{
+            "App\\":"app/"
+        }
+
+    }
+
+}
