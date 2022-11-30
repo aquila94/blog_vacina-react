@@ -1,80 +1,97 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 
 function Header () {
     return (        
         <header>
 
+        <h1 class="titulo_pag">Vacinação no Brasil</h1>
+
+        <p class="pdf">Clique para ver todo o 
+        < a href="https://documentcloud.wondershare.com/clientShare/review/bpcFVoayn8Msp0rtjRcN4QJEZfaMEPuQZhOnjMhJJXfUVSwTKhbQWcDCxsivHXX_r0znUAmVy1sPvaltN6ytKg"> calendário de vacinação</a></p>
+
 <div class="table">
 <table>
     
-    <caption>Front-End</caption>
+    <caption>Calendário de Vacinação Brasileiro</caption>
+    <br></br>
     
     <tr>
-        <th>Html</th>
-        <th>Css</th>
-        <th>jQuery</th>
-    </tr>
-    
-    <tr>
-        <td>Table</td>
-        <td>Responsivo</td>
-        <td>FadeIn</td>
+        <th>Idade</th>
+        <th>Vacina e doses</th>
+        <th>Doenças Evitadas</th>
     </tr>
     
     <tr>
-        <td>Article</td>
-        <td>Hoverlay</td>
-        <td>FadeOut</td>
+        <td>Ao nascer</td>
+        <td>BCG - ID - Dose única; Vacina contra hepatite B - primeira dose</td>
+        <td>Formas graves de tuberculose; Hepatite B</td>
     </tr>
     
     <tr>
-        <td>Form</td>
-        <td>Loading</td>
-        <td>Toggle </td>
+        <td>1 mês</td>
+        <td>Vacina contra hepatite B - segunda dose</td>
+        <td>Hepatite B</td>
     </tr>
-
-    <tr>
-        <td>Form</td>
-        <td>Loading</td>
-        <td>Toggle </td>
-    </tr>
-
-    <tr>
-        <td>Form</td>
-        <td>Loading</td>
-        <td>Toggle </td>
-    </tr>
-
-    <tr>
-        <td>Form</td>
-        <td>Loading</td>
-        <td>Toggle </td>
-    </tr>
-
-    <tr>
-        <td>Form</td>
-        <td>Loading</td>
-        <td>Toggle </td>
-    </tr>
-
-    <tr>
-        <td>Form</td>
-        <td>Loading</td>
-        <td>Toggle </td>
-    </tr>
-
-    <tr>
-        <td>Form</td>
-        <td>Loading</td>
-        <td>Toggle </td>
-    </tr>
-
-
     
+    
+    <tr>
+        <td>2 meses</td>
+        <td>Vacina tetravalente (DTP + Hib), primeira dose; VOP (vacina oral contra pólio), primeira dose; VORH (Vacina Oral de Rotavírus Humano); Vacina tetravalente (DTP + Hib), segunda dose</td>
+        <td>Difteria, tétano, coqueluche, meningite e outras infecções causadas pelo Haemophilus influenzae tipo b; Poliomielite (paralisia infantil); Diarréia por Rotavírus; Difteria, tétano, coqueluche, meningite e outras infecções causadas pelo Haemophilus influenzae tipo b</td>
+    </tr>
+
+    <tr>
+        <td>4 meses</td>
+        <td>VOP (vacina oral contra pólio), segunda dose; VORH (Vacina Oral de Rotavírus Humano), segunda dose</td>
+        <td>Poliomielite (paralisia infantil); Diarréia por Rotavírus</td>
+    </tr>
+
+
+    <tr>
+        <td>6 meses</td>
+        <td>Vacina tetravalente (DTP + Hib), terceira dose; VOP (vacina oral contra pólio), terceira dose; Vacina contra hepatite B, terceira dose</td>
+        <td>Difteria, tétano, coqueluche, meningite e outras infecções causadas pelo Haemophilus influenzae tipo b; Poliomielite (paralisia infantil); Hepatite B</td>
+    </tr>
+
+    <tr>
+        <td>9 meses</td>
+        <td>Vacina contra febre amarela, dose única</td>
+        <td>Febre amarela</td>
+    </tr>
+
+    <tr>
+        <td>12 meses</td>
+        <td>SRC (tríplice viral), dose única</td>
+        <td>Sarampo, rubéola e caxumba</td>
+    </tr>
+
+    <tr>
+        <td>15 meses</td>
+        <td>VOP (vacina oral contra pólio), reforço; DTP (tríplice bacteriana), primeiro reforço</td>
+        <td>Poliomielite (paralisia infantil); Difteria, tétano e coqueluche</td>
+    </tr>
+
+    <tr>
+        <td>4-6 anos</td>
+        <td>DTP (tríplice bacteriana), segundo reforço; SRC (tríplice viral), reforço</td>
+        <td>Difteria, tétano e coqueluche; Sarampo, rubéola e caxumba</td>
+    </tr>
+
+    <tr>
+        <td>10 anos</td>
+        <td>Vacina contra febre amarela, reforço</td>
+        <td>Febre amarela</td>
+    </tr>
+
+ 
 </table>
 </div>
 
-
+<div class="bi">
+<iframe  title="relatorio vacinas PI" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=f8ba36b9-0325-4384-95e8-eac0e817e1e3&autoAuth=true&ctid=909caf6b-2de4-4cb6-89cb-a3ed64014d62" frameborder="1" allowFullScreen="true"></iframe>
+</div>
 
 
 
@@ -123,9 +140,18 @@ function Header () {
                 Embora a catapora seja uma doença leve que muitos pais vão se lembrar de sua infância (a vacina foi introduzida em 1995), algumas crianças podem desenvolver casos graves com complicações que podem ser fatais ou causar incapacidades permanentes. A vacina elimina o risco de complicações da doença e impede que as crianças infectem seus irmãos, amigos e colegas de escola.
 
                 <h3>Qual é o esquema de vacinas recomendado?</h3>
-                Os cronogramas de imunização variam de acordo com o país. Você pode encontrar uma visão geral das vacinas recomendadas pelo Ministério da Saúde de seu país. O Brasil tem o maior programa de vacinação pública do mundo (Programa Nacional de Imunizações – PNI). Para saber mais, acesse: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/calendario-nacional-de-vacinacao</p>
+                Os cronogramas de imunização variam de acordo com o país. Você pode encontrar uma visão geral das vacinas recomendadas pelo Ministério da Saúde de seu país. O Brasil tem o maior programa de vacinação pública do mundo (Programa Nacional de Imunizações – PNI).</p>
             </div>
         
+          <footer class="rodape">Projeto Integrador - Engenharia da Computação. Fontes:
+                                <br></br>
+                                <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/calendario-nacional-de-vacinacao">https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/calendario-nacional-de-vacinacao</a>
+                                <br></br>
+                                <a href="http://pni.datasus.gov.br/calendario_vacina_Infantil.asp">http://pni.datasus.gov.br/calendario_vacina_Infantil.asp</a>
+                                <br></br>
+                                <a href="https://www.unicef.org/brazil/vacinas-perguntas-e-respostas">https://www.unicef.org/brazil/vacinas-perguntas-e-respostas</a>
+                                </footer>  
+
         </header>
     )
 }
