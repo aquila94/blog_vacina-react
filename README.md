@@ -1,3 +1,10 @@
+Projeto para disciplina de Projeto Integrador da Univesp
+
+Trata-se de uma página constrída com Javascript, Html e Css.
+Com interações com serviço de Cloud Wondershar PDFelement, e relatório Dashboard de
+Análise de Dados do PowerBi.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
